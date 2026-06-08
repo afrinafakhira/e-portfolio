@@ -2,25 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const btn = document.getElementById("themeBtn");
 
-    // LOAD SAVE MODE
+    // APPLY SAVED THEME (SEMUA PAGE)
     if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark");
-        if (btn) btn.innerText = "☀️";
-    } else {
-        if (btn) btn.innerText = "🌙";
     }
 
-    // CLICK TOGGLE
+    // ONLY INDEX HAS BUTTON
     if (btn) {
         btn.addEventListener("click", () => {
 
             document.body.classList.toggle("dark");
 
             if (document.body.classList.contains("dark")) {
-                btn.innerText = "☀️";
                 localStorage.setItem("theme", "dark");
             } else {
-                btn.innerText = "🌙";
                 localStorage.setItem("theme", "light");
             }
         });
