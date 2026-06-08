@@ -21,11 +21,17 @@ A responsive personal blog website developed using HTML, CSS and JavaScript.
 2. Open index.html
 
 ## Screenshots
-(Add screenshots here)
-index.png
-about.png
-blog.png
-contact.png
+### Homepage
+![Index](index.png)
+
+### About
+![About](about.png)
+
+### Blog
+![Blog](blog.png)
+
+### Contact
+![Contact](contact.png)
 
 ## GitHub Repository
 (Add repository link)
