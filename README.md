@@ -22,10 +22,10 @@ A responsive personal blog website developed using HTML, CSS and JavaScript.
 
 ## Screenshots
 (Add screenshots here)
-
-
-
-
+index.png
+about.png
+blog.png
+contact.png
 
 ## GitHub Repository
 (Add repository link)
