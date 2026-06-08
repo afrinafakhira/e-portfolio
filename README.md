@@ -1,7 +1,9 @@
-# Personal Blog Portfolio
+# Project Name
+E-Portfolio Afrina Fakhira
 
 ## Description
-A responsive personal blog website developed using HTML, CSS and JavaScript.
+A personal e-portfolio website developed using HTML and CSS to showcase my profile, education, 
+skills, and projects. The website is hosted using GitHub Pages.
 
 ## Features
 - Home Page
