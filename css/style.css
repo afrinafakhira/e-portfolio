@@ -681,3 +681,12 @@ button{
     }
 
 }
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark a {
+    color: #4da3ff;
+}
