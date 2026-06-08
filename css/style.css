@@ -681,3 +681,61 @@ button{
     }
 
 }
+
+/* DARK MODE BUTTON */
+.dark-btn{
+    background:none;
+    border:none;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+    transition:0.3s;
+    margin:0 10px;
+}
+
+.dark-btn:hover{
+    transform:scale(1.2) rotate(10deg);
+}
+
+/* DARK MODE GLOBAL */
+body.dark{
+    background:#121212;
+    color:white;
+}
+
+body.dark a{
+    color:#4da3ff;
+}
+
+/* DARK MODE CARDS */
+body.dark .stat-box,
+body.dark .feature-card,
+body.dark .project-card,
+body.dark .timeline-item,
+body.dark .post,
+body.dark .profile-card,
+body.dark .contact-form-container form{
+    background:#1e1e1e;
+    color:white;
+}
+
+/* BUTTON STYLE */
+body.dark .btn{
+    background:#4da3ff;
+    color:#0f172a;
+}
+
+body.dark .btn-outline{
+    border-color:#4da3ff;
+    color:white;
+}
+
+body.dark .btn-outline:hover{
+    background:#4da3ff;
+    color:black;
+}
+
+/* SMOOTH */
+body{
+    transition: all 0.3s ease;
+}
