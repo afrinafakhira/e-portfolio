@@ -739,3 +739,20 @@ body.dark .btn-outline:hover{
 body{
     transition: all 0.3s ease;
 }
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .navbar,
+body.dark .stat-box,
+body.dark .feature-card,
+body.dark .project-card,
+body.dark .timeline-item,
+body.dark .post,
+body.dark .profile-card,
+body.dark .contact-form-container form {
+    background: #1e1e1e;
+    color: white;
+}
