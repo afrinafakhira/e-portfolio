@@ -690,3 +690,42 @@ body.dark {
 body.dark a {
     color: #4da3ff;
 }
+
+body.dark .navbar {
+    background: rgba(0,0,0,0.8);
+}
+
+body.dark .tagline {
+    background: #1a1a1a;
+    border-color: #4da3ff;
+}
+
+body.dark .stat-box,
+body.dark .feature-card,
+body.dark .project-card,
+body.dark .timeline-item,
+body.dark .post,
+body.dark .profile-card,
+body.dark .info-card,
+body.dark .contact-form-container form {
+    background: #1e1e1e;
+    color: white;
+}
+
+body.dark .btn {
+    background: #4da3ff;
+    color: #0f172a;
+}
+
+body.dark .btn-outline {
+    border-color: #4da3ff;
+    color: white;
+}
+
+body.dark .btn-outline:hover {
+    background: #4da3ff;
+    color: black;
+}
+body {
+    transition: all 0.3s ease;
+}
