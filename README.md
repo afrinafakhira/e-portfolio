@@ -34,7 +34,7 @@ A responsive personal blog website developed using HTML, CSS and JavaScript.
 ![Contact](contact.png)
 
 ## GitHub Repository
-(Add repository link)
+https://github.com/afrinafakhira/e-portfolio
 
 ## Demo
 (Add GitHub Pages link)
