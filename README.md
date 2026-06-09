@@ -12,6 +12,7 @@ skills, and projects. The website is hosted using GitHub Pages.
 - Contact Page
 - Blog Search
 - Responsive Design
+- Dark Mode/ Light Mode
 
 ## Technologies Used
 - HTML
