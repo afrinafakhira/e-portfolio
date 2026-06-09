@@ -2,12 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const btn = document.getElementById("themeBtn");
 
-    // Apply saved theme
     if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark");
 
-        if(btn){
-           btn.innerHTML = "☀️ Light Mode";
+        if (btn) {
+            btn.innerHTML = "☀️ <span>Light Mode</span>";
         }
     }
 
@@ -19,15 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (document.body.classList.contains("dark")) {
 
-    localStorage.setItem("theme", "dark");
-    btn.innerHTML = "☀️ Light Mode";
+                localStorage.setItem("theme", "dark");
+                btn.innerHTML = "☀️ <span>Light Mode</span>";
 
-} else {
+            } else {
 
-    localStorage.setItem("theme", "light");
-    btn.innerHTML = "🌙 Dark Mode";
+                localStorage.setItem("theme", "light");
+                btn.innerHTML = "🌙 <span>Dark Mode</span>";
 
-}
+            }
 
         });
 
