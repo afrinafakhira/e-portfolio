@@ -42,3 +42,4 @@ https://github.com/afrinafakhira/e-portfolio
 ## Demo
 (Add GitHub Pages link)
 https://github.com/afrinafakhira/e-portfolio
+https://afrinafakhira.github.io/e-portfolio/
