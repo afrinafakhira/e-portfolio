@@ -756,3 +756,14 @@ body.dark .contact-form-container form {
     background: #1e1e1e;
     color: white;
 }
+
+.dark-btn{
+    background:none;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
