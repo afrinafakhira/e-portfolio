@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    alert("JS WORKING");
+
     const btn = document.getElementById("themeBtn");
 
     // APPLY SAVED THEME (SEMUA PAGE)
