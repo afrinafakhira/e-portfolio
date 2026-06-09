@@ -19,15 +19,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (document.body.classList.contains("dark")) {
 
-                localStorage.setItem("theme", "dark");
-                btn.innerHTML = "☀️";
+    localStorage.setItem("theme", "dark");
+    btn.innerHTML = "☀️ Light Mode";
 
-            } else {
+} else {
 
-                localStorage.setItem("theme", "light");
-                btn.innerHTML = "🌙";
+    localStorage.setItem("theme", "light");
+    btn.innerHTML = "🌙 Dark Mode";
 
-            }
+}
 
         });
 
