@@ -767,3 +767,7 @@ body.dark .contact-form-container form {
     align-items:center;
     gap:6px;
 }
+
+.dark-btn span{
+    font-size:14px;
+}
