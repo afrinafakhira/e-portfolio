@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.add("dark");
 
         if(btn){
-            btn.innerHTML = "☀️";
+            btn.innerHTML = "TEST123";
         }
     }
 
