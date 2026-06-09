@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.add("dark");
 
         if(btn){
-            btn.innerHTML = "TEST123";
+           btn.innerHTML = "☀️ Light Mode";
         }
     }
 
